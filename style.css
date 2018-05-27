@@ -7,17 +7,17 @@ body {
   padding: 0;
   background: white;
   color: #232323;
-}
-
-a {
-  text-decoration: none;
-  color: #cdcdcd;
-  transition: color 0.3s ease;
   font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
-a:hover {
-  color: tomato;
+ul a {
+  text-decoration: none;
+  color: #cdcdcd;
+  transition: color 0.3s ease;
+}
+
+ul a:hover {
+  color: #50A865;
 }
 
 
@@ -104,6 +104,53 @@ a:hover {
   transform: none;
 }
 
+
+
+
+
 li .topics {
   font-size: 15px;
 }
+img {
+  width: 100%;
+}
+main h1 {
+  font-size: 3em;
+}
+main h1, h2 {
+  font-family: 'Limelight', cursive;
+}
+main p {
+  width: 95%;
+}
+#first {
+  font-weight: bold;
+  margin-top: 5%;
+}
+#content {
+  margin-left: 130px;
+}
+#kop {
+  display: flex;
+  flex-direction: row;
+}
+#kop div {
+  margin-left: 5%;
+}
+#social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  font-size: 2em;
+  margin-bottom: 40%;
+}
+i:hover {
+  color: #50A865;
+}
+a {
+  color: #232323;
+}
+
