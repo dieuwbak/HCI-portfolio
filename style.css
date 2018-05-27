@@ -95,9 +95,8 @@ ul a:hover {
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
 }
 
-#menu li {
-  padding: 10px 0;
-  font-size: 22px;
+li {
+  padding: 10px 20px;
 }
 
 #menuToggle input:checked ~ ul {
@@ -108,8 +107,9 @@ ul a:hover {
 
 
 
-li .topics {
-  font-size: 15px;
+a .topics {
+  font-size: 22px;
+  padding: 10px 0;
 }
 img {
   width: 100%;
