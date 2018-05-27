@@ -176,3 +176,9 @@ i:hover {
 .pagina p {
   max-width: 600px;
 }
+
+
+/*computer.html*/
+#computer img{
+  width: 600px;
+}
