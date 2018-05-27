@@ -117,7 +117,7 @@ a .topics {
 main h1 {
   font-size: 3em;
 }
-main h1, h2 {
+main h1, h2, h3 {
   font-family: 'Limelight', cursive;
 }
 main p {
