@@ -20,7 +20,10 @@ ul a:hover {
   color: #50A865;
 }
 
-
+nav {
+  position: fixed;
+  margin-top: -10px;
+}
 #menuToggle {
   display: block;
   position: relative;
@@ -111,9 +114,6 @@ a .topics {
   font-size: 22px;
   padding: 10px 0;
 }
-img {
-  width: 100%;
-}
 main h1 {
   font-size: 3em;
 }
@@ -129,6 +129,18 @@ main p {
 }
 #content {
   margin-left: 130px;
+}
+a {
+  color: #232323;
+}
+
+
+
+
+
+/*index.html*/
+#ik {
+  width: 100%;
 }
 #kop {
   display: flex;
@@ -150,7 +162,17 @@ i {
 i:hover {
   color: #50A865;
 }
-a {
-  color: #232323;
-}
 
+
+
+/*exertion.html*/
+#exertion img{
+  width: 250px;
+}
+.figure {
+  display: flex;
+  flex-direction: row;
+}
+.pagina p {
+  max-width: 600px;
+}
