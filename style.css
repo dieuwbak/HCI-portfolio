@@ -127,14 +127,15 @@ main p {
   font-weight: bold;
   margin-top: 5%;
 }
+#margin {
+  margin-left: 25%;
+}
 #content {
   margin-left: 130px;
 }
 a {
   color: #232323;
 }
-
-
 
 
 
