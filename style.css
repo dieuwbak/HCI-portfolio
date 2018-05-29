@@ -186,3 +186,9 @@ i:hover {
 #computer img{
   width: 600px;
 }
+
+/*arduino.html*/
+.arduino {
+  width: auto;
+  margin-left: 5%;
+}
