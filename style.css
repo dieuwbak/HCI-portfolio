@@ -23,6 +23,7 @@ ul a:hover {
 nav {
   position: fixed;
   margin-top: -10px;
+  z-index: 100;
 }
 #menuToggle {
   display: block;
@@ -196,4 +197,11 @@ i:hover {
 .row {
   display: flex;
   flex-direction: row;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10%;  
 }
