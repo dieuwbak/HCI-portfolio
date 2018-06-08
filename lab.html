@@ -76,11 +76,24 @@
           <p>
             De eerste dag heb ik kennis gemaakt met mijn project groepje. Ik zit met twee Nederlandse studenten en twee internationale. We hebben de categorie Wearables gekregen en zijn daar over gaan brainstormen. Na deze brainstorm zijn ze op meerdere ideeën uitgekomen. Daarvan hebben we er een gekozen en daar research over gedaan. Door de research hebben we het idee iets aangepast en hebben we bedacht wat we allemaal nodig hebben qua techniek. We zijn ook al een beetje aan het experimenteren met de techniek die we tot onze beschikking hadden. Tot nu toe is ons idee om een paar schoenen te ontwerpen die een dansspelletje bevatten. Op de schoen ze je pijlen, die moet je volgen. Als je het goed doet wordt de zool groen en als je het fout doet wordt het rood.
           </p>
-
+          <div class="proof">
+            <img src="weeks/day1/3.jpeg">
+            <img src="weeks/day1/4.jpeg">
+            <img src="weeks/day1/5.jpeg">
+            <video src="weeks/day1/6.mp4" controls="controls"></video>
+            <video src="weeks/day1/7.mp4" controls="controls"></video>
+          </div>
           <h2>Day 2</h2>
           <p>
             De tweede dag heb ik de hele dag gespendeerd om een rgb led strip aan de praat te krijgen. Uiteindelijk bleek die kapot te zijn. Daarna heb ik een single color led strip uitgeprobeerd en die werkte meteen. Gister hadden we onder anderen een Touch scherm besteld. Die hebben hun uitgeprobeerd. Ook hebben ze pijlen gemaakt en de volgorde gerandomized. Als laatst hebben we een countdown scherm kunnen maken.
           </p>
+          <div class="proof">
+            <img src="weeks/day2/1.jpeg">
+            <img src="weeks/day2/2.jpeg">
+            <img src="weeks/day2/3.jpeg">
+            <video src="weeks/day2/4.mp4" controls="controls"></video>
+            <video src="weeks/day2/5.mp4" controls="controls"></video>
+          </div>
           <h2>Day 3</h2>
           <p>
             Vandaag hebben we besloten om het concept ietsje aan te passen. Nu wordt het een soort gitar heroes op je arm. Op deze manier kunnen we de spullen en de codes die we al hebben gemaakt alsnog gebruiken. Ik heb geprobeerd om een arduino lilypad aan te sluiten op van alles en nog wat. Dat bleek uiteindelijk onmogelijk, dus gingen we verder met twee arduino's. Een daarvan is verbonden met het led scherm. Glenn heeft het voorelkaar gekregen dat er in een random volgorde vier verschillende kleuren verschijnen op het led scherm. Voor de tweede arduino, hebben Stefanija en ik geprobeerd om een capacitive sensor te maken door middel van een munt. Dat is nog niet gelukt.
@@ -104,67 +117,16 @@
           <p>
             Vandaag begonnen Glenn en Milou 'S ochtends met het maken van een mooiere start en countdown scherm door middel van een SD kaart. Ik heb samen met Helena 4 single light led strips geknipt en gesoldeerd. Die hebben we in plaatst van de leds in het circuit geplaatst. Toen hebben we met z'n alle het concept gereëvalueerd, zodat we allemaal op een lijn zitten qua uitwerking van het concept. In de middag wilde we de codes gaan samen voegen van de twee aparte circuiën, maar daarvoor moesten we eerst de twee arduino's laten samen werken. Op dit moment is dat ons nog niet gelukt, omdat het Touch scherm bijna alle porten in gebruik heeft. Wij zijn deze week dus geëindigt met de vraag: Hoe gaan we de twee arduino's kunnen laten samen werken?
           </p>
-
-          <div class="slideshow-container">
-
-          <div class="mySlides fade">
-            <div class="numbertext">1 / 5</div>
+          <div class="proof">
             <img src="weeks/day5/1.jpeg">
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">2 / 5</div>
             <img src="weeks/day5/2.jpeg">
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">3 / 5</div>
             <img src="weeks/day5/3.jpeg">
+            <video src="weeks/day5/4.mp4" controls="controls"></video>
+            <video src="weeks/day5/5.mp4" controls="controls"></video>
           </div>
-
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-          </div>
-          <br>
-
-          <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span> 
-            <span class="dot" onclick="currentSlide(2)"></span> 
-            <span class="dot" onclick="currentSlide(3)"></span> 
-          </div>
-
         </div>
       </div> 
     </div> 
   </main>
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
 </body>
 </html>
