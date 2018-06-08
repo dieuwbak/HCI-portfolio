@@ -150,9 +150,10 @@ video {
 #kop {
   display: flex;
   flex-direction: row;
-}
-#kop div {
   margin-left: 5%;
+}
+#titel {
+  margin-right: 5%;
 }
 #social {
   display: flex;
