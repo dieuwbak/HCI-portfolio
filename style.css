@@ -211,3 +211,12 @@ footer {
 #error {
   width: 80% !important;
 }
+.proof {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.proof video, img {
+  max-height: 250px;
+}

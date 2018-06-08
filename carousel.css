@@ -1,3 +1,4 @@
+@@ -1,96 +0,0 @@
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
@@ -5,7 +6,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 375px;
   position: relative;
   margin: auto;
 }
@@ -93,4 +94,7 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+.mySlides img, video {
+  max-width: 375px;
 }
