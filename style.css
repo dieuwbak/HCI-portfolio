@@ -179,6 +179,11 @@ i:hover {
   display: flex;
   flex-direction: row;
 }
+.rotate {
+  transform: rotate(90deg);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .pagina p {
   max-width: 600px;
 }
