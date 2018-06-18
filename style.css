@@ -8,6 +8,7 @@ body {
   background: white;
   color: #232323;
   font-family: "Avenir Next", "Avenir", sans-serif;
+  margin-bottom: 30px;
 }
 
 ul a {
@@ -222,7 +223,7 @@ footer {
   flex-wrap: wrap;
   align-content: flex-start;
 }
-.proof video, .proof img {
+.proof video, .proof img, .expo {
   max-height: 250px;
   margin-right: 10px;
   margin-top: 10px;
