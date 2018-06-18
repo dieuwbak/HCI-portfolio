@@ -223,8 +223,13 @@ footer {
   flex-wrap: wrap;
   align-content: flex-start;
 }
-.proof video, .proof img, .expo {
+.proof video, .proof img {
   max-height: 250px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 0;
+}
+.expo {
   margin-right: 10px;
   margin-top: 10px;
   margin-left: 0;
